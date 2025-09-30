@@ -1,0 +1,413 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\layout\\billinglayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\layout\\billinglayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\shared\\aside_billingnav.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\shared\\aside_billingnav.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\billing\\service\\service.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\billing\\service\\service.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\billing\\payment\\payment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\billing\\payment\\payment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\billing\\invoice\\invoice.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\billing\\invoice\\invoice.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\billing\\address\\address.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\billing\\address\\address.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\auth\\signin\\account\\account.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\auth\\signin\\account\\account.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\account\\account.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\account\\account.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\account\\application\\application.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\account\\application\\application.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\account\\workspace\\workspace.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\account\\workspace\\workspace.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\shared\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\shared\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\shared\\scrolltop.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\shared\\scrolltop.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\shared\\engage_toolbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\shared\\engage_toolbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\shared\\aside_nav.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\shared\\aside_nav.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\account\\setting\\setting.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\account\\setting\\setting.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\account\\security\\security.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\account\\security\\security.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\shared\\logo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\shared\\logo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\layout\\authlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\layout\\authlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\shared\\authlogo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\shared\\authlogo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\shared\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\shared\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\shared\\aside_footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\shared\\aside_footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|d:\\money\\2024\\s\\saas\\projects\\crms\\v500\\bamboohr\\concept\\project\\src\\host\\host.auth\\components\\pages\\auth\\signup\\your_name\\your_name.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDDBCF0F-06C8-B47E-6797-A1CBD6052E38}|Host.Auth.csproj|solutionrelative:components\\pages\\auth\\signup\\your_name\\your_name.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Aside_BillingNav.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Aside_BillingNav.razor",
+              "RelativeDocumentMoniker": "Components\\Shared\\Aside_BillingNav.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Aside_BillingNav.razor",
+              "RelativeToolTip": "Components\\Shared\\Aside_BillingNav.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T15:06:18.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillingLayout.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Layout\\BillingLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\BillingLayout.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Layout\\BillingLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\BillingLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T15:01:19.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Billing\\Service\\Service.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Billing\\Service\\Service.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Billing\\Service\\Service.razor",
+              "RelativeToolTip": "Components\\Pages\\Billing\\Service\\Service.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T15:00:41.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Payment.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Billing\\Payment\\Payment.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Billing\\Payment\\Payment.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Billing\\Payment\\Payment.razor",
+              "RelativeToolTip": "Components\\Pages\\Billing\\Payment\\Payment.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T15:00:25.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Invoice.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Billing\\Invoice\\Invoice.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Billing\\Invoice\\Invoice.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Billing\\Invoice\\Invoice.razor",
+              "RelativeToolTip": "Components\\Pages\\Billing\\Invoice\\Invoice.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T15:00:11.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Address.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Billing\\Address\\Address.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Billing\\Address\\Address.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Billing\\Address\\Address.razor",
+              "RelativeToolTip": "Components\\Pages\\Billing\\Address\\Address.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T14:57:43.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Application.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Account\\Application\\Application.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Account\\Application\\Application.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Account\\Application\\Application.razor",
+              "RelativeToolTip": "Components\\Pages\\Account\\Application\\Application.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:13:23.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthLogo.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\AuthLogo.razor",
+              "RelativeDocumentMoniker": "Components\\Shared\\AuthLogo.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\AuthLogo.razor",
+              "RelativeToolTip": "Components\\Shared\\AuthLogo.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:05:06.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T12:57:21.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Account.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Account\\Account.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Account\\Account.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Account\\Account.razor",
+              "RelativeToolTip": "Components\\Pages\\Account\\Account.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T12:57:47.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Account.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Auth\\Signin\\Account\\Account.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Auth\\Signin\\Account\\Account.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Auth\\Signin\\Account\\Account.razor",
+              "RelativeToolTip": "Components\\Pages\\Auth\\Signin\\Account\\Account.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:07:40.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Footer.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Footer.razor",
+              "RelativeDocumentMoniker": "Components\\Shared\\Footer.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Footer.razor",
+              "RelativeToolTip": "Components\\Shared\\Footer.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:06:39.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Logo.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Logo.razor",
+              "RelativeDocumentMoniker": "Components\\Shared\\Logo.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Logo.razor",
+              "RelativeToolTip": "Components\\Shared\\Logo.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:10:06.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Aside_Nav.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Aside_Nav.razor",
+              "RelativeDocumentMoniker": "Components\\Shared\\Aside_Nav.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Aside_Nav.razor",
+              "RelativeToolTip": "Components\\Shared\\Aside_Nav.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:03:07.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Header.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Header.razor",
+              "RelativeDocumentMoniker": "Components\\Shared\\Header.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Header.razor",
+              "RelativeToolTip": "Components\\Shared\\Header.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:06:04.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Workspace.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Account\\Workspace\\Workspace.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Account\\Workspace\\Workspace.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Account\\Workspace\\Workspace.razor",
+              "RelativeToolTip": "Components\\Pages\\Account\\Workspace\\Workspace.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4DAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:16:50.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Engage_Toolbar.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Engage_Toolbar.razor",
+              "RelativeDocumentMoniker": "Components\\Shared\\Engage_Toolbar.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Engage_Toolbar.razor",
+              "RelativeToolTip": "Components\\Shared\\Engage_Toolbar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:45:53.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Scrolltop.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Scrolltop.razor",
+              "RelativeDocumentMoniker": "Components\\Shared\\Scrolltop.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Scrolltop.razor",
+              "RelativeToolTip": "Components\\Shared\\Scrolltop.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:46:41.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Security.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Account\\Security\\Security.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Account\\Security\\Security.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Account\\Security\\Security.razor",
+              "RelativeToolTip": "Components\\Pages\\Account\\Security\\Security.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:14:47.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Setting.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Account\\Setting\\Setting.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Account\\Setting\\Setting.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Account\\Setting\\Setting.razor",
+              "RelativeToolTip": "Components\\Pages\\Account\\Setting\\Setting.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:15:48.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Aside_Footer.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Aside_Footer.razor",
+              "RelativeDocumentMoniker": "Components\\Shared\\Aside_Footer.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Shared\\Aside_Footer.razor",
+              "RelativeToolTip": "Components\\Shared\\Aside_Footer.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwDAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:04:20.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T12:58:34.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthLayout.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Layout\\AuthLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\AuthLayout.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Layout\\AuthLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\AuthLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T12:57:19.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Your_Name.razor",
+              "DocumentMoniker": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Auth\\Signup\\Your_Name\\Your_Name.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Auth\\Signup\\Your_Name\\Your_Name.razor",
+              "ToolTip": "D:\\MONEY\\2024\\S\\SaaS\\Projects\\CRMs\\v500\\BambooHR\\Concept\\Project\\src\\Host\\Host.Auth\\Components\\Pages\\Auth\\Signup\\Your_Name\\Your_Name.razor",
+              "RelativeToolTip": "Components\\Pages\\Auth\\Signup\\Your_Name\\Your_Name.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T13:08:41.161Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

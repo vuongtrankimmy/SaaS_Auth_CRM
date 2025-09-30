@@ -1,0 +1,50 @@
+﻿@layout Layout.AuthLayout
+@page "/auth/signup/verify"
+<!--begin::Form-->
+<form class="form w-100 mb-10" novalidate="novalidate" id="kt_sing_in_two_steps_form" method="post" action="auth/signup/verify_otp">
+	<!--begin::Icon-->
+	<div class="text-center mb-10">
+		<img alt="Logo" class="mh-125px" src="assets/media/svg/misc/smartphone.svg" />
+	</div>
+	<!--end::Icon-->
+	<!--begin::Heading-->
+	<div class="text-center mb-10">
+		<!--begin::Title-->
+		<h1 class="text-dark mb-3">Verify some info before creating an account</h1>
+		<!--end::Title-->
+		<!--begin::Sub-title-->
+		<div class="text-muted fw-bold fs-5 mb-5">Google needs to verify some info about your device or phone number before you can continue. This helps keep you and others safe online by preventing abuse from computer programs or bots.</div>
+		<!--end::Sub-title-->
+	</div>
+	<!--end::Heading-->
+	<!--begin::Section-->
+	<div class="mb-10 px-md-10">
+		<!--begin::Label-->
+		<div class="text-center pb-15 px-5">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQAAAACFI5MzAAADRUlEQVR4Xu2XTa6rMAyFjTLIrGwAKdvILFuCDVDYAGyJWbYRKRuAWQYIv+NSeqsnvUHd2dNFHbR8qDb+OXaI/3XR3zde1y/5L8lKdGe32kSB6mImuxM5Ndl472IeCw/EuF0tOx7Uk6XpKa82czGrd1vZW/sVaUMeCP7yRG6OzZfkLp7uLVFX3GHf7XxOcC/wAX/ZHJR6+x6djwny08Xm/fOWuY8JriOYreSRqYrIuXvcU5KVmiq6I4jBekEdmcnrCXNmNvPS3FCJLFk6xJSSbEuqOd3FVD6oqct+s6cdDUEAGL98Q6GpOW8Lz0VPttLUi9sWx7G5ET5ulXdRkoPc4BGARERVcRv671k7GrKKv8gM3M+TJ7h/xUBDtsiDdEZqfVMtqVtw+7SjIgU9l+rIvOSJmj6YwX5BkGfPq8UjcBltx98QKGhLBsrHMU+2gTBQeEZHQZDnw0NKYWevIc+EUtIT5nQq32FROJKf9pkfDTmsm0uCs53EgMeYZ1SllmxSzjz5vZZ7qQ+Qq+f7KAgXNwXU8t56SGAefL56TkOOIM1xeDdADBYjP+PzfRSEH302x9QxJkZeCWKvJ9DRDsVIeYx0jxjdrxhoyFbcGqBPBn8vkbAYtnqyeqrYjNEMD6GaoDGXBwqCWErj+nSzqSsMsb+mmYZsGGKFsJj0XuYG9GB61rWG8AI7e0/NnfOAdvGpLqcdDVkt2jdB5rHviB3rxis6KmJmpAgLnU1VMTA7hMvO52SDHkhOmg7ZjnvF+bKjIZjbGBrYmzByKWSINFRBT6LsiWPETDNIex0h+afXGrJ6DH/CbKwjRhBiQK+9SkEOzEYvAsMSziTfn7WjITIbQ545oTlGltppr/woCBfqvZONSb5Aq3iOX5AIrUINwk6S0iYIqp5AD86hvT7EAHDD41pyWBG/W3CDReFI7fRPOxpyrnXdghnrZkZykO3TjopIo8guVrFIIAbj5bWGYK1uSfamKmI9gcs49OgJziV9IBEVJuwm8B3nMD1ZoAQY2ogBlms03EvjtURSnW4BawUch5EvCTQe66HhuMsuZn+8/pg8Nh1MnonMKsssX6ccDZHzXIHs4RCMUSbt8jPRPyf/uH7JL5HrD5gEG66QzWjqAAAAAElFTkSuQmCC" alt="" class="mw-100 h-200px h-sm-325px">
+		</div>
+		<div class="fw-bolder text-start text-dark fs-6 mb-1 ms-1">Waiting for verification</div>
+		<div class="text-muted fw-bold fs-5 mb-5">
+			Continue completing the verification steps on your phone. If you’re having trouble, scan the QR code again using your Camera app
+			. Then, tap the link and follow a few more steps on your phone
+			. You’ll need to switch back to this device to continue.
+		</div>
+		<ul>
+			<li>
+				Mở Google Authenticator App.
+			</li>
+			<li>
+				Nhấn “+” → Scan a QR code.
+			</li>
+			<li>
+				Đưa camera điện thoại vào màn hình máy tính (hiện QR code từ API).
+			</li>
+			<li>
+				Authenticator sẽ lưu account mới: hiển thị label (TotpDemo:test@example.com) và mã 6 số.
+			</li>
+		</ul>
+		<!--end::Label-->
+	</div>
+	<!--end::Section-->
+</form>
+<!--end::Form-->

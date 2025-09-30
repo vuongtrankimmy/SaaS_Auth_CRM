@@ -1,0 +1,206 @@
+﻿@layout Layout.BillingLayout
+@page "/invoice"
+<!--begin::Content-->
+<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+    <!--begin::Container-->
+    <div class="container-xxl" id="kt_content_container">
+        <div class="card mb-5 mb-xl-8">
+            <!--begin::Header-->
+            <div class="card-header border-0 pt-5">
+                <h3 class="card-title align-items-start flex-column">
+                    <span class="card-label fw-bold fs-3 mb-1">Transaction</span>
+                </h3>
+                <div class="card-toolbar">
+                    <!--begin::Menu-->
+                    <button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                        <i class="ki-duotone ki-category fs-6">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                            <span class="path3"></span>
+                            <span class="path4"></span>
+                        </i>
+                    </button>
+                    <!--begin::Menu 2-->
+                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true">
+                        <!--begin::Menu item-->
+                        <div class="menu-item px-3">
+                            <div class="menu-content fs-6 text-gray-900 fw-bold px-3 py-4">Quick Actions</div>
+                        </div>
+                        <!--end::Menu item-->
+                        <!--begin::Menu separator-->
+                        <div class="separator mb-3 opacity-75"></div>
+                        <!--end::Menu separator-->
+                        <!--begin::Menu item-->
+                        <div class="menu-item px-3">
+                            <a href="#" class="menu-link px-3">Export</a>
+                        </div>
+                        <!--end::Menu item-->
+                    </div>
+                    <!--end::Menu 2-->
+                    <!--end::Menu-->
+                </div>
+            </div>
+            <!--end::Header-->
+            <!--begin::Body-->
+            <div class="card-body py-3">
+                <!--begin::Table container-->
+                <div class="table-responsive">
+                    <!--begin::Table-->
+                    <table class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4">
+                        <!--begin::Table head-->
+                        <thead>
+                            <tr class="fw-bold text-muted bg-light">
+                                <th class="ps-4 min-w-100px rounded-start">#</th>
+                                <th class="w-120px">Amount</th>
+                                <th>Status</th>
+                                <th>Issued Date</th>
+                                <th>Payment Method</th>
+                                <th class="w-100px text-end">Actions</th>
+                            </tr>
+                        </thead>
+                        <!--end::Table head-->
+                        <!--begin::Table body-->
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="#" class="text-gray-900 fw-bold text-hover-primary fs-6">56037-XDER</a>
+                                </td>
+                                <td class="text-danger fw-bold text-hover-primary fs-6">$3560</td>
+                                <td>
+                                    <span class="badge badge-light-success">Approved</span>
+                                </td>
+                                <td class="fs-6">09 May 2022</td>
+                                <td class="fs-6">Visa</td>
+                                <td class="text-end">
+                                    <button class="btn btn-sm btn-icon btn-active-color-primary justify-content-end show menu-dropdown" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
+                                        <i class="ki-solid ki-dots-horizontal fs-1"></i>
+                                    </button>
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true" data-popper-placement="bottom-end">
+                                        <!--begin::Menu separator-->
+                                        <div class="separator mb-3 opacity-75"></div>
+                                        <!--end::Menu separator-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">View</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Edit</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Change plan</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#" class="text-gray-900 fw-bold text-hover-primary fs-6">56037-XDER</a>
+                                </td>
+                                <td class="text-danger fw-bold text-hover-primary fs-6">$3560</td>
+                                <td>
+                                    <span class="badge badge-light-success">Approved</span>
+                                </td>
+                                <td class="fs-6">09 May 2022</td>
+                                <td class="fs-6">Visa</td>
+                                <td class="text-end">
+                                    <button class="btn btn-sm btn-icon btn-active-color-primary justify-content-end show menu-dropdown" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
+                                        <i class="ki-solid ki-dots-horizontal fs-1"></i>
+                                    </button>
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true" data-popper-placement="bottom-end">
+                                        <!--begin::Menu separator-->
+                                        <div class="separator mb-3 opacity-75"></div>
+                                        <!--end::Menu separator-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">View</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Edit</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Change plan</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#" class="text-gray-900 fw-bold text-hover-primary fs-6">56037-XDER</a>
+                                </td>
+                                <td class="text-danger fw-bold text-hover-primary fs-6">$3560</td>
+                                <td>
+                                    <span class="badge badge-light-success">Approved</span>
+                                </td>
+                                <td class="fs-6">09 May 2022</td>
+                                <td class="fs-6">Visa</td>
+                                <td class="text-end">
+                                    <button class="btn btn-sm btn-icon btn-active-color-primary justify-content-end show menu-dropdown" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
+                                        <i class="ki-solid ki-dots-horizontal fs-1"></i>
+                                    </button>
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true" data-popper-placement="bottom-end">
+                                        <!--begin::Menu separator-->
+                                        <div class="separator mb-3 opacity-75"></div>
+                                        <!--end::Menu separator-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">View</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Edit</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Change plan</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!--end::Table body-->
+                    </table>
+                    <!--end::Table-->
+                </div>
+                <div id="" class="row">
+                    <div id="" class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start dt-toolbar">
+                        <div>
+                            <select name="kt_customers_table_length" aria-controls="kt_customers_table" class="form-select form-select-solid form-select-sm" id="dt-length-0"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select><label for="dt-length-0"></label>
+                        </div>
+                    </div><div id="" class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end">
+                        <div class="dt-paging paging_simple_numbers">
+                            <ul class="pagination">
+                                <li class="dt-paging-button page-item disabled"><a class="page-link previous" aria-controls="kt_customers_table" aria-disabled="true" aria-label="Previous" data-dt-idx="previous" tabindex="-1"><i class="previous"></i></a></li>
+                                <li class="dt-paging-button page-item active"><a href="#" class="page-link" aria-controls="kt_customers_table" aria-current="page" data-dt-idx="0" tabindex="0">1</a></li>
+                                <li class="dt-paging-button page-item"><a href="#" class="page-link" aria-controls="kt_customers_table" data-dt-idx="1" tabindex="0">2</a></li>
+                                <li class="dt-paging-button page-item"><a href="#" class="page-link" aria-controls="kt_customers_table" data-dt-idx="2" tabindex="0">3</a></li>
+                                <li class="dt-paging-button page-item"><a href="#" class="page-link" aria-controls="kt_customers_table" data-dt-idx="3" tabindex="0">4</a></li>
+                                <li class="dt-paging-button page-item">
+                                    <a href="#" class="page-link next" aria-controls="kt_customers_table" aria-label="Next" data-dt-idx="next" tabindex="0">
+                                        <i class="next"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end::Table container-->
+            </div>
+            <!--begin::Body-->
+        </div>
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::Content-->

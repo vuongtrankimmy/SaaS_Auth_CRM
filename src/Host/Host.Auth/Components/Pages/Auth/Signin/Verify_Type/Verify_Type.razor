@@ -1,0 +1,126 @@
+﻿@layout Layout.AuthLayout
+@page "/auth/account/verify_type"
+<!--begin::Form-->
+<form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" action="#">
+    <!--begin::Heading-->
+    <div class="text-center">
+        <!--begin::Title-->
+        <h1 class="text-dark mb-3">Verify that it’s you</h1>
+        <!--end::Title-->
+        <!--begin::Link-->
+        <div class="text-gray-400 fw-bold fs-4">
+            To help keep your account safe, Google wants to make sure that it's really you trying to sign in. Learn more
+        </div>
+        <!--end::Link-->
+    </div>
+    <!--begin::Heading-->
+    <div class="fv-row mb-10">
+        <div class="card-body pt-2">
+            <!--begin::Notice-->
+            <div class="notice d-flex rounded border border-dashed mb-9 p-2">
+                <!--begin::Icon-->
+                <!--begin::Svg Icon | path: icons/duotune/art/art006.svg-->
+                <div class="symbol symbol-50px symbol-circle">
+                    <div class="symbol-label me-6 w-30px h-30px" style="background-image: url(https://lh3.googleusercontent.com/-HRfQVN8CgMs/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfknFXPJyxsC8MyipmL8PtSalZetOmQ/s128-c/photo.jpg)"></div>
+                </div>
+                <!--end::Svg Icon-->
+                <!--end::Icon-->
+                <!--begin::Wrapper-->
+                <div class="d-flex flex-stack flex-grow-1">
+                    <!--begin::Content-->
+                    <div class="fw-bold">
+                        <div class="fs-6 text-gray-700">
+                            <a href="#" class="me-1 text-dark">trankimmyvuong@gmail.com</a>
+                        </div>
+                    </div>
+                    <!--end::Content-->
+                </div>
+                <!--end::Wrapper-->
+            </div>
+            <!--end::Notice-->
+            <!--begin::Items-->
+            <div class="py-2">
+                <!--begin::Item-->
+                <div class="d-flex flex-stack">
+                    <a href="auth/account/verify_otp">
+                        <div class="d-flex">
+                            <i class="bi bi-chat-left-text fs-2x me-6"></i>
+                            <div class="d-flex flex-column">
+                                <div class="fs-5 text-dark">
+                                    Get a verification code at *********234
+                                </div>
+                                <div class="fs-6 text-muted">Recovery phone</div>
+                                <div class="fs-6 text-muted">Standard rates apply</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--end::Item-->
+                @* <div class="separator separator-dashed my-5"></div>
+                <!--begin::Item-->
+                <div class="d-flex flex-stack">
+                    <a href="auth/account/verify_otp">
+                        <div class="d-flex">
+                            <i class="bi bi-telephone-inbound fs-2x me-6"></i>
+                            <div class="d-flex flex-column">
+                                <div class="fs-5 text-dark">
+                                    Get a call at *********234
+                                </div>
+                                <div class="fs-6 text-muted">Recovery phone</div>
+                                <div class="fs-6 text-muted">Standard rates apply</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--end::Item--> *@
+                <div class="separator separator-dashed my-5"></div>
+                <!--begin::Item-->
+                <div class="d-flex flex-stack">
+                    <a href="">
+                        <div class="d-flex">
+                            <i class="bi bi-laptop fs-2x me-6"></i>
+                            <div class="d-flex flex-column">
+                                <div class="fs-5 text-dark">
+                                    Use another phone or computer a finish signing in
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--end::Item-->
+                <div class="separator separator-dashed my-5"></div>
+                <!--begin::Item-->
+                <div class="d-flex flex-stack">
+                    <a href="auth/account/verify_otp">
+                        <div class="d-flex">
+                            <i class="bi bi-shield-lock fs-2x me-6"></i>
+                            <div class="d-flex flex-column">
+                                <div class="fs-5 text-dark">
+                                    Enter one of your 8-digit backup codes
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--end::Item-->
+                <div class="separator separator-dashed my-5"></div>
+                <!--begin::Item-->
+                <div class="d-flex flex-stack">
+                    <a href="">
+                        <div class="d-flex">
+                            <i class="bi bi-question-circle fs-2x me-6"></i>
+                            <div class="d-flex flex-column">
+                                <div class="fs-5 text-dark">
+                                    Get helper
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--end::Item-->
+            </div>
+            <!--end::Items-->
+        </div>
+    </div>
+</form>
+<!--end::Form-->

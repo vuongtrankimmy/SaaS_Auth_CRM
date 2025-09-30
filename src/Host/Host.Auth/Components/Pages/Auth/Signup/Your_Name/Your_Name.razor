@@ -1,0 +1,46 @@
+﻿@layout Layout.AuthLayout
+@page "/auth/signup/your_name"
+<!--begin::Form-->
+<form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" action="auth/signup/bith_of_day">
+    <!--begin::Heading-->
+    <div class="text-center mb-10">
+        <!--begin::Title-->
+        <h1 class="text-dark mb-3">Create a account</h1>
+        <!--end::Title-->
+        <!--begin::Link-->
+        <div class="text-gray-400 fw-bold fs-4">
+            Enter your name
+        </div>
+        <!--end::Link-->
+    </div>
+    <!--begin::Heading-->
+    <!--begin::Input group-->
+    <div class="fv-row mb-10">
+        <!--begin::Input group-->
+        <div class="input-group input-group-solid mb-5">
+            <span class="input-group-text bg-white">First name</span>
+            <input type="text" class="form-control" placeholder="First name" aria-label="firstName"/>
+        </div>
+    </div>
+    <!--end::Input group-->
+    <!--begin::Input group-->
+    <div class="fv-row mb-10">
+        <div class="input-group input-group-solid mb-5">
+            <span class="input-group-text bg-white">Last name</span>
+            <input type="text" class="form-control" placeholder="Last name" aria-label="lastName"/>
+        </div>
+    </div>
+    <!--end::Input group-->
+    <!--begin::Actions-->
+    <div class="d-flex flex-wrap justify-content-center pb-lg-0">
+        <a href="auth/signup/bith_of_day" type="button" id="kt_password_reset_submit" class="btn btn-lg btn-primary fw-bolder me-4">
+            <span class="indicator-label">Next</span>
+            <span class="indicator-progress">
+                Please wait...
+                <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+            </span>
+        </a>
+    </div>
+    <!--end::Actions-->
+</form>
+<!--end::Form-->

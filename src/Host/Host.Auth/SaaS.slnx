@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/document/" />
+  <Folder Name="/src/">
+    <Project Path="../../Entities/Entities.csproj" />
+    <Project Path="../../Infrastructures/Infrastructures.csproj" />
+    <Project Path="../../Shared/Shared.csproj" />
+  </Folder>
+  <Folder Name="/src/Core/" />
+  <Folder Name="/src/Host/">
+    <Project Path="../Host.Hr/Host.Hr.csproj" />
+    <Project Path="Host.Auth.csproj" />
+  </Folder>
+  <Folder Name="/tester/" />
+</Solution>

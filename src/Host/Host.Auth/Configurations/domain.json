@@ -1,0 +1,7 @@
+{
+  "DomainSetting": {
+    "domain": "http://hwm.vn",
+    "endpoint_api": "http://dev-api.hwm.vn",
+    "image": "http://image.hwm.vn"
+  }
+}
