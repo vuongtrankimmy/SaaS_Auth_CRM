@@ -5,8 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
-    <AssemblyVersion>25.9.30.10</AssemblyVersion>
-    <FileVersion>25.9.30.10</FileVersion>
+    <AssemblyVersion>25.10.2.11</AssemblyVersion>
+    <FileVersion>25.10.2.11</FileVersion>
   </PropertyGroup>
 
 </Project>

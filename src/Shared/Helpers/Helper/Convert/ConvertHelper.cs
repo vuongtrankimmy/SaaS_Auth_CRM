@@ -793,4 +793,16 @@ namespace Helpers.Helper.Convert
             return int.TryParse(value, out result);
         }
     }
+    public class JsonService
+    {
+        public async Task<T> DeserializeObject<T>(string json)
+        {
+            return JsonConvert.DeserializeObject<T>(json);
+        }
+
+        public async Task<string> SerializeObject(object obj)
+        {
+            return JsonConvert.SerializeObject(obj);
+        }
+    }
 }

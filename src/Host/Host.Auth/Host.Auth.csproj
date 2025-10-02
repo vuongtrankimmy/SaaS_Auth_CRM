@@ -5,8 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
-    <AssemblyVersion>25.9.30.135</AssemblyVersion>
-    <FileVersion>25.9.30.135</FileVersion>
+    <AssemblyVersion>25.10.2.137</AssemblyVersion>
+    <FileVersion>25.10.2.137</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Components\Widgets\" />
     <Folder Include="wwwroot\data\html\mobile\v1\Components\Pages\" />
     <Folder Include="wwwroot\data\html\mobile\v1\" />
   </ItemGroup>

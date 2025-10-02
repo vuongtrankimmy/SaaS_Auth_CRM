@@ -5,7 +5,10 @@
     <Project Path="Infrastructures/Infrastructures.csproj" />
     <Project Path="Shared/Shared.csproj" />
   </Folder>
-  <Folder Name="/src/Core/" />
+  <Folder Name="/src/Core/">
+    <Project Path="Core/Entities/Entities.csproj" Id="f1c6ba02-c212-4212-b297-09872dd3004f" />
+    <Project Path="Core/Repositories/Repositories.csproj" Id="3faffbce-a6e1-4d90-8a9d-673669cad46f" />
+  </Folder>
   <Folder Name="/src/Host/">
     <Project Path="Host/Host.Auth/Host.Auth.csproj" />
     <Project Path="Host/Host.Hr/Host.Hr.csproj" />
