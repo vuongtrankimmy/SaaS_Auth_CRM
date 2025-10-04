@@ -39,7 +39,7 @@ namespace Helpers.Helper.Convert
         public static DateTime TicksToDateTime(this long value)
         { return new DateTime(value); }
 
-        public static string ToCode(this string value, int numberFormat, string prefix = "", string hyphen = "")
+        public static string? ToCode(this string value, int numberFormat, string prefix = "", string hyphen = "")
         {
             if (value != null && value != "")
             {
@@ -64,7 +64,7 @@ namespace Helpers.Helper.Convert
             {
                 var first = regGroup.Count > length ? string.Join(string.Empty, regGroup?.Take(length - 1)) ?? "" : regGroup?.FirstOrDefault();
                 var last = regGroup?.LastOrDefault() ?? "";
-                var joinList = new List<string> { first, last } ?? null;
+                List<string>? joinList = new List<string> { first, last } ?? null;
                 return joinList != null && joinList.Any() ? string.Join(string.Empty, joinList) : regGroup?.FirstOrDefault();
             }
             return str.Substring(0, 1);
@@ -91,7 +91,7 @@ namespace Helpers.Helper.Convert
                     number = phoneNumberUtil.Parse(phone, regionCode);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
             }
             return number;
@@ -125,7 +125,7 @@ namespace Helpers.Helper.Convert
             {
                 dd = DateTime.Parse(dateValue);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 dd = DateTime.Parse("0001-01-01");
             }
@@ -228,22 +228,22 @@ namespace Helpers.Helper.Convert
 
         #region DICTIONARY TO CLASS
 
-        public static T ToClass<T>(this Dictionary<string, object> dictionary) where T : class
+        public static T? ToClass<T>(this Dictionary<string, object> dictionary) where T : class
         {
             return dictionary?.ToSerialize()?.ToDeserialize<T>();
         }
 
-        public static T ToClass<T>(this List<Dictionary<string, object>> dictionaryList) where T : class
+        public static T? ToClass<T>(this List<Dictionary<string, object>> dictionaryList) where T : class
         {
             return dictionaryList.ToSerialize()?.ToDeserialize<T>();
         }
 
-        public static T ToClass<T>(this List<dynamic> objList) where T : class
+        public static T? ToClass<T>(this List<dynamic> objList) where T : class
         {
             return objList.ToSerialize()?.ToDeserialize<T>();
         }
 
-        public static T ToClone<T>(this T doc) where T : class
+        public static T? ToClone<T>(this T doc) where T : class
         {
             return doc?.ToSerialize()?.ToDeserialize<T>();
         }
@@ -277,7 +277,7 @@ namespace Helpers.Helper.Convert
         {
             string salt = "admin@carParking.vn";
             byte[] bytes = Encoding.UTF8.GetBytes(input + salt);
-            SHA256Managed sHA256ManagedString = new SHA256Managed();
+            using SHA256Managed sHA256ManagedString = new();
             byte[] hash = sHA256ManagedString.ComputeHash(bytes);
             return System.Convert.ToBase64String(hash);
         }
@@ -353,7 +353,7 @@ namespace Helpers.Helper.Convert
                     {
                         var directory = new DirectoryInfo(folderSave).Parent;
                         if (directory != null && !directory.Exists) Directory.CreateDirectory(directory.FullName);
-                        var tmpImg = new Bitmap(image);
+                        Bitmap tmpImg = new(image);
                         tmpImg.Save(folderSave, ImageFormat.Jpeg);
                     }
                     //image.Save(folderPath,System.Drawing.Imaging.ImageFormat.Jpeg);
@@ -371,7 +371,7 @@ namespace Helpers.Helper.Convert
         public static string SaveImageFromURL(this string url, string path, string name)
         {
             var folderPath = string.Empty;
-            System.Drawing.Image image = null;
+            System.Drawing.Image? image = null;
             var extension = ".jpg";
             if (string.IsNullOrEmpty(url)) return string.Empty;
             if (url.IsBase64())
@@ -795,14 +795,8 @@ namespace Helpers.Helper.Convert
     }
     public class JsonService
     {
-        public async Task<T> DeserializeObject<T>(string json)
-        {
-            return JsonConvert.DeserializeObject<T>(json);
-        }
+        public static T DeserializeObject<T>(string json) => JsonConvert.DeserializeObject<T>(json);
 
-        public async Task<string> SerializeObject(object obj)
-        {
-            return JsonConvert.SerializeObject(obj);
-        }
+        public static string SerializeObject(object obj) => JsonConvert.SerializeObject(obj);
     }
 }

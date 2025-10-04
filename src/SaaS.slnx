@@ -6,8 +6,9 @@
     <Project Path="Shared/Shared.csproj" />
   </Folder>
   <Folder Name="/src/Core/">
-    <Project Path="Core/Entities/Entities.csproj" Id="f1c6ba02-c212-4212-b297-09872dd3004f" />
+    <Project Path="Core/QueryService/QueryService.csproj" Id="b9eaff39-1bb0-45d2-8c68-391718d64214" />
     <Project Path="Core/Repositories/Repositories.csproj" Id="3faffbce-a6e1-4d90-8a9d-673669cad46f" />
+    <Project Path="Core/Templates/Templates.csproj" Id="e0084b50-a3ca-4697-9275-c5b435f6758f" />
   </Folder>
   <Folder Name="/src/Host/">
     <Project Path="Host/Host.Auth/Host.Auth.csproj" />

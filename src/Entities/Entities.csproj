@@ -4,15 +4,50 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyVersion>25.10.2.27</AssemblyVersion>
-    <FileVersion>25.10.2.27</FileVersion>
+    <AssemblyVersion>25.10.4.49</AssemblyVersion>
+    <FileVersion>25.10.4.49</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Enum\" />
-    <Folder Include="Features\Auth\Signin\Validators\" />
-    <Folder Include="Features\Auth\Signin\Profile\" />
-    <Folder Include="Features\Hr\" />
+    <Folder Include="Features\Pages\Auth\Sigin\Account\" />
+    <Folder Include="Features\Pages\Auth\Sigin\Verify_Otp\" />
+    <Folder Include="Features\Pages\Auth\Sigin\Verify_Type\" />
+    <Folder Include="Features\Pages\Auth\Sigin\Reset_Password\" />
+    <Folder Include="Features\Pages\Auth\Sigin\New_Password\" />
+    <Folder Include="Features\Pages\Auth\Sigin\Password\Validators\" />
+    <Folder Include="Features\Pages\Auth\Sigin\Password\Profile\" />
+    <Folder Include="Features\Pages\Account\" />
+    <Folder Include="Features\Pages\Auth\Account_Choose\Validators\" />
+    <Folder Include="Features\Pages\Auth\Signup\Basic_Information\" />
+    <Folder Include="Features\Pages\Auth\Signup\BirthOfDay\" />
+    <Folder Include="Features\Pages\Auth\Signup\Email\" />
+    <Folder Include="Features\Pages\Auth\Signup\Your_Name\" />
+    <Folder Include="Features\Pages\Auth\Signup\Verify_Otp\" />
+    <Folder Include="Features\Pages\Auth\Signup\Verify\" />
+    <Folder Include="Features\Pages\Auth\Signup\Phone\" />
+    <Folder Include="Features\Pages\Auth\Signup\New_Password\" />
+    <Folder Include="Features\Pages\Billing\" />
+    <Folder Include="Features\Pages\Hr\Attendance\" />
+    <Folder Include="Features\Pages\Hr\Bonus\" />
+    <Folder Include="Features\Pages\Hr\Component\" />
+    <Folder Include="Features\Pages\Hr\Department\" />
+    <Folder Include="Features\Pages\Hr\DesignToken\" />
+    <Folder Include="Features\Pages\Hr\Employee\" />
+    <Folder Include="Features\Pages\Hr\Insurance\" />
+    <Folder Include="Features\Pages\Hr\KPI\" />
+    <Folder Include="Features\Pages\Hr\Leave\" />
+    <Folder Include="Features\Pages\Hr\Payroll\" />
+    <Folder Include="Features\Pages\Hr\Penalty\" />
+    <Folder Include="Features\Pages\Hr\Performance\" />
+    <Folder Include="Features\Pages\Hr\Position\" />
+    <Folder Include="Features\Pages\Hr\Promotion\" />
+    <Folder Include="Features\Pages\Hr\Role\" />
+    <Folder Include="Features\Pages\Hr\Salary\" />
+    <Folder Include="Features\Pages\Hr\Tax\" />
+    <Folder Include="Features\Pages\Hr\Tenant\" />
+    <Folder Include="Features\Pages\Hr\Theme\" />
+    <Folder Include="Features\Pages\Hr\Training\" />
     <Folder Include="ValueObject\" />
   </ItemGroup>
 

@@ -5,11 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
-    <AssemblyVersion>25.10.2.137</AssemblyVersion>
-    <FileVersion>25.10.2.137</FileVersion>
+    <AssemblyVersion>25.10.4.163</AssemblyVersion>
+    <FileVersion>25.10.4.163</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\QueryService\QueryService.csproj" />
     <ProjectReference Include="..\..\Infrastructures\Infrastructures.csproj" />
   </ItemGroup>
 

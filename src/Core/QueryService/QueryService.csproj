@@ -4,6 +4,42 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyVersion>25.10.4.50</AssemblyVersion>
+    <FileVersion>25.10.4.50</FileVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Pages\v1\Hr\Attendance\" />
+    <Folder Include="Features\Pages\v1\Hr\Bonus\" />
+    <Folder Include="Features\Pages\v1\Hr\Component\" />
+    <Folder Include="Features\Pages\v1\Hr\Department\" />
+    <Folder Include="Features\Pages\v1\Hr\DesignToken\" />
+    <Folder Include="Features\Pages\v1\Hr\Employee\" />
+    <Folder Include="Features\Pages\v1\Hr\Insurance\" />
+    <Folder Include="Features\Pages\v1\Hr\KPI\" />
+    <Folder Include="Features\Pages\v1\Hr\Leave\" />
+    <Folder Include="Features\Pages\v1\Hr\Training\" />
+    <Folder Include="Features\Pages\v1\Hr\Theme\" />
+    <Folder Include="Features\Pages\v1\Hr\Tenant\" />
+    <Folder Include="Features\Pages\v1\Hr\Tax\" />
+    <Folder Include="Features\Pages\v1\Hr\Salary\" />
+    <Folder Include="Features\Pages\v1\Hr\Role\" />
+    <Folder Include="Features\Pages\v1\Hr\Promotion\" />
+    <Folder Include="Features\Pages\v1\Hr\Position\" />
+    <Folder Include="Features\Pages\v1\Hr\Performance\" />
+    <Folder Include="Features\Pages\v1\Hr\Penalty\" />
+    <Folder Include="Features\Pages\v1\Hr\Payroll\" />
+    <Folder Include="Features\Widgets\" />
+    <Folder Include="Features\Shared\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\Repositories\Repositories.csproj" />
+  </ItemGroup>
 
 </Project>

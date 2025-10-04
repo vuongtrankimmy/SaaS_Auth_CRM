@@ -7,7 +7,7 @@
         /// </summary>
         public int code { get; set; } = 0;
         public string error { get; set; } = "0";
-        public object data { get; set; }
+        public object? data { get; set; }
     }
 
     public class IsValidResponse

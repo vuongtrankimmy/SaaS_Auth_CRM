@@ -1,9 +1,9 @@
-﻿using Entities.Features.Auth.Signin.DTOs;
+﻿using Entities.Features.Pages.Auth.Sigin.Password.DTOs;
 
 namespace Entities.Common.AuthToken
 {
     public static class AuthToken
     {
-        public static SigninResponse AuthTokenProperty { get; set; } = default!;
+        public static PasswordResponse AuthTokenProperty { get; set; } = default!;
     }
 }
