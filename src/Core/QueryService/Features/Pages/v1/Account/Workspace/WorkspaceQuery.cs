@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Entities.Common.Endpoint;
+using Entities.Features.Pages.Account.Workspace;
+using Repositories.Base;
+using Repositories.Repository;
 
 namespace QueryService.Features.Pages.v1.Account.Workspace
 {
-    internal class WorkspaceQuery
+    public class WorkspaceQuery(IQueryRepository repository) : BaseRepository<WorkspaceModel>(repository, ApiEndpoint.Account.Workspace), IWorkspaceQuery
     {
     }
 }

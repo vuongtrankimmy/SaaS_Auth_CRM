@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Entities.Common.Endpoint;
+using Entities.Features.Pages.Billing.Address;
+using Repositories.Base;
+using Repositories.Repository;
 
 namespace QueryService.Features.Pages.v1.Billing.Address
 {
-    internal class AddressQuery
+    public class AddressQuery(IQueryRepository repository) : BaseRepository<AddressModel>(repository, ApiEndpoint.Billing.Address), IAddressQuery
     {
     }
 }

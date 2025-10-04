@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace QueryService.Features.Pages.v1.Billing.Payment
+﻿namespace QueryService.Features.Pages.v1.Billing.Payment
 {
-    internal class IPaymentQuery
+    public interface IPaymentQuery
     {
     }
 }

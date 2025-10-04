@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Entities.Common.Endpoint;
+using Entities.Features.Pages.Billing.Payment;
+using Repositories.Base;
+using Repositories.Repository;
 
 namespace QueryService.Features.Pages.v1.Billing.Payment
 {
-    internal class PaymentQuery
+    public class PaymentQuery(IQueryRepository repository) : BaseRepository<PaymentModel>(repository, ApiEndpoint.Billing.Payment), IPaymentQuery
     {
     }
 }

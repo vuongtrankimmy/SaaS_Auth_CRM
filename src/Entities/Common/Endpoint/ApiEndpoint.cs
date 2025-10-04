@@ -13,8 +13,7 @@
             public static readonly string NewPassword = $"{AuthBase}/new_password";
             public class Signin
             {
-                public static readonly string Account = $"{AuthBase}/account";
-                
+                public static readonly string Account = $"{AuthBase}/account";                
                 public static readonly string Password = $"{AuthBase}/password";
                 public static readonly string ResetPassword = $"{AuthBase}/reset_password";
                 public static readonly string VerifyOtp = $"{AuthBase}/verify_otp";
@@ -32,7 +31,24 @@
                 public static readonly string YourName = $"{AuthBase}/your_name";
             }
         }
-       
+
+        public static class Account
+        {
+            private static readonly string AccountBase = $"{BaseUrl}/account";
+            public static readonly string Application = $"{AccountBase}/application";
+            public static readonly string Security = $"{AccountBase}/security";
+            public static readonly string Setting = $"{AccountBase}/setting";
+            public static readonly string Workspace = $"{AccountBase}/workspace";
+        }
+
+        public static class Billing
+        {
+            private static readonly string BillingBase = $"{BaseUrl}/billing";
+            public static readonly string Address = $"{BillingBase}/address";
+            public static readonly string Invoice = $"{BillingBase}/invoice";
+            public static readonly string Payment = $"{BillingBase}/payment";
+            public static readonly string Service = $"{BillingBase}/service";
+        }
 
         public static class Hr
         {

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace QueryService.Features.Pages.v1.Billing.Address
+﻿namespace QueryService.Features.Pages.v1.Billing.Address
 {
-    internal class IAddressQuery
+    public interface IAddressQuery
     {
     }
 }

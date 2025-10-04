@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Entities.Common.Endpoint;
+using Entities.Features.Pages.Billing.Invoice;
+using Repositories.Base;
+using Repositories.Repository;
 
 namespace QueryService.Features.Pages.v1.Billing.Invoice
 {
-    internal class InvoiceQuery
+    public class InvoiceQuery(IQueryRepository repository) : BaseRepository<InvoiceModel>(repository, ApiEndpoint.Billing.Invoice), IInvoiceQuery
     {
     }
 }
