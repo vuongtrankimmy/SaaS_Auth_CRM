@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace QueryService.Features.Pages.v1.Hr.Department
+﻿namespace QueryService.Features.Pages.v1.Hr.Department
 {
-    internal class IDepartmentQuery
+    public interface IDepartmentQuery
     {
     }
 }

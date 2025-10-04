@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Entities.Common.Endpoint;
+using Entities.Features.Pages.Hr.KPI;
+using Repositories.Base;
+using Repositories.Repository;
 
 namespace QueryService.Features.Pages.v1.Hr.KPI
 {
-    internal class KPIQuery
+    public class KPIQuery(IQueryRepository repository) : BaseRepository<KPIModel>(repository, ApiEndpoint.Hr.Kpi), IKPIQuery
     {
     }
 }

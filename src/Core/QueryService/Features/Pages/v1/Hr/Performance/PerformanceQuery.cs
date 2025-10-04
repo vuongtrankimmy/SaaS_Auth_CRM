@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Entities.Common.Endpoint;
+using Entities.Features.Pages.Hr.Performance;
+using Repositories.Base;
+using Repositories.Repository;
 
 namespace QueryService.Features.Pages.v1.Hr.Performance
 {
-    internal class PerformanceQuery
+    public class PerformanceQuery(IQueryRepository repository) : BaseRepository<PerformanceModel>(repository, ApiEndpoint.Hr.Performance), IPerformanceQuery
     {
     }
 }

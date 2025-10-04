@@ -1,6 +1,7 @@
 ﻿using QueryService.Features.Pages.v1.Account;
 using QueryService.Features.Pages.v1.Auth;
 using QueryService.Features.Pages.v1.Billing;
+using QueryService.Features.Pages.v1.Hr;
 using Repositories.Repository;
 
 namespace QueryService.Wrapper
@@ -15,5 +16,8 @@ namespace QueryService.Wrapper
 
         public IBillingQuery BillingQuery => billingQuery ??= new BillingQuery(_queryRepository);
         IBillingQuery? billingQuery;
+
+        public IHrQuery HrQuery => hrQuery ??= new HrQuery(_queryRepository);
+        IHrQuery? hrQuery;
     }
 }

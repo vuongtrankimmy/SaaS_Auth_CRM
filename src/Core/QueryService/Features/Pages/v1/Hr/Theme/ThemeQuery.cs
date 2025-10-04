@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Entities.Common.Endpoint;
+using Entities.Features.Pages.Hr.Theme;
+using Repositories.Base;
+using Repositories.Repository;
 
 namespace QueryService.Features.Pages.v1.Hr.Theme
 {
-    internal class ThemeQuery
+    public class ThemeQuery(IQueryRepository repository) : BaseRepository<ThemeModel>(repository, ApiEndpoint.Hr.Theme), IThemeQuery
     {
     }
 }

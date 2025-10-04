@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Entities.Common.Endpoint;
+using Entities.Features.Pages.Hr.Training;
+using Repositories.Base;
+using Repositories.Repository;
 
 namespace QueryService.Features.Pages.v1.Hr.Training
 {
-    internal class TrainingQuery
+    public class TrainingQuery(IQueryRepository repository) : BaseRepository<TrainingModel>(repository, ApiEndpoint.Hr.Training), ITrainingQuery
     {
     }
 }

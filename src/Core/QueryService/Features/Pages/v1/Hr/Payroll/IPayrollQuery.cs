@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace QueryService.Features.Pages.v1.Hr.Payroll
+﻿namespace QueryService.Features.Pages.v1.Hr.Payroll
 {
-    internal class IPayrollQuery
+    public interface IPayrollQuery
     {
     }
 }

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace QueryService.Features.Pages.v1.Hr.Promotion
+﻿namespace QueryService.Features.Pages.v1.Hr.Promotion
 {
-    internal class IPromotionQuery
+    public interface IPromotionQuery
     {
     }
 }

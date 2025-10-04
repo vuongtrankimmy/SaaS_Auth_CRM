@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace QueryService.Features.Pages.v1.Hr.Attendance
+﻿namespace QueryService.Features.Pages.v1.Hr.Attendance
 {
-    internal class IAttendanceQuery
+    public interface IAttendanceQuery
     {
     }
 }

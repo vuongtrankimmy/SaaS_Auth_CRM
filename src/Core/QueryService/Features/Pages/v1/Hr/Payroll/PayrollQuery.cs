@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Entities.Common.Endpoint;
+using Entities.Features.Pages.Hr.Payroll;
+using Repositories.Base;
+using Repositories.Repository;
 
 namespace QueryService.Features.Pages.v1.Hr.Payroll
 {
-    internal class PayrollQuery
+    public class PayrollQuery(IQueryRepository repository) : BaseRepository<PayrollModel>(repository, ApiEndpoint.Hr.Payroll), IPayrollQuery
     {
     }
 }
