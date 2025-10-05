@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Hr.Employee;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Hr.Employee
 {
-    public class EmployeeQuery(IQueryRepository repository) : BaseRepository<EmployeeModel>(repository, ApiEndpoint.Hr.Employee), IEmployeeQuery
+    public class EmployeeQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IEmployeeQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Hr.Employee;
     }
 }

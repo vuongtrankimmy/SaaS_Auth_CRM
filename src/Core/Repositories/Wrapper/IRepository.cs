@@ -1,10 +1,8 @@
 ﻿using Repositories.Base;
-using Repositories.Repository;
 
 namespace Repositories.Wrapper
 {
-    public interface IRepository
+    public interface IRepository:IBaseRepository
     {
-        IQueryRepository QueryRepository {  get; }
     }
 }

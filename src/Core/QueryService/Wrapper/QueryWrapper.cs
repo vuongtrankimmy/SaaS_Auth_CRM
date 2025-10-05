@@ -6,18 +6,18 @@ using Repositories.Repository;
 
 namespace QueryService.Wrapper
 {
-    public class QueryWrapper(IQueryRepository? _queryRepository) : IQueryWrapper
+    public class QueryWrapper(IQueryRepository queryRepository) : IQueryWrapper
     {
-        public IAuthQuery AuthQuery => authQuery ??= new AuthQuery(_queryRepository);
-        IAuthQuery? authQuery;
+        public IAuthQuery AuthQuery => authQuery ??= new AuthQuery(queryRepository);
+        IAuthQuery authQuery;
 
-        public IAccountQuery AccountQuery => accountQuery ??= new AccountQuery(_queryRepository);
-        IAccountQuery? accountQuery;
+        public IAccountQuery AccountQuery => accountQuery ??= new AccountQuery(queryRepository);
+        IAccountQuery accountQuery;
 
-        public IBillingQuery BillingQuery => billingQuery ??= new BillingQuery(_queryRepository);
-        IBillingQuery? billingQuery;
+        public IBillingQuery BillingQuery => billingQuery ??= new BillingQuery(queryRepository);
+        IBillingQuery billingQuery;
 
-        public IHrQuery HrQuery => hrQuery ??= new HrQuery(_queryRepository);
-        IHrQuery? hrQuery;
+        public IHrQuery HrQuery => hrQuery ??= new HrQuery(queryRepository);
+        IHrQuery hrQuery;
     }
 }

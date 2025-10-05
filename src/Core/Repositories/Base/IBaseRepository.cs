@@ -1,6 +1,6 @@
 ﻿namespace Repositories.Base
 {
-    public interface IBaseRepository<TEntity>
+    public interface IBaseRepository
     {
         Task<T> GetAsync<T>(int pageIndex = 1);
         Task<T> PostAsync<T>(object data, int pageIndex = 1);

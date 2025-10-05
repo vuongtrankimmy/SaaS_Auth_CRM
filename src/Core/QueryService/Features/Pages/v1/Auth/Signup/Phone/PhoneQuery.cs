@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Auth.Signup.Phone;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Auth.Signup.Phone
 {
-    public class PhoneQuery(IQueryRepository repository) : BaseRepository<PhoneModel>(repository, ApiEndpoint.Auth.Signup.Phone), IPhoneQuery
+    public class PhoneQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IPhoneQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Auth.Signup.Phone;
     }
 }

@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Hr.Salary;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Hr.Salary
 {
-    public class SalaryQuery(IQueryRepository repository) : BaseRepository<SalaryModel>(repository, ApiEndpoint.Hr.Salary), ISalaryQuery
+    public class SalaryQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), ISalaryQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Hr.Salary;
     }
 }

@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.Promotion
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.Promotion
 {
-    public interface IPromotionQuery
+    public interface IPromotionQuery : IRepository
     {
     }
 }

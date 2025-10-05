@@ -1,9 +1,8 @@
-﻿using Entities.Features.Pages.Auth.Account_Choose;
-using Repositories.Base;
+﻿using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.Auth.Account_Choose
 {
-    public interface IAccount_ChooseQuery : IBaseRepository<Account_ChooseModel>
+    public interface IAccount_ChooseQuery:IRepository
     {
     }
 }

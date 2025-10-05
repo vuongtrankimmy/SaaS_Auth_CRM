@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.Tax
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.Tax
 {
-    public interface ITaxQuery
+    public interface ITaxQuery : IRepository
     {
     }
 }

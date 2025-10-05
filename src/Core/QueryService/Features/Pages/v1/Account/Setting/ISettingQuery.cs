@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Account.Setting
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Account.Setting
 {
-    public interface ISettingQuery
+    public interface ISettingQuery:IRepository
     {
     }
 }

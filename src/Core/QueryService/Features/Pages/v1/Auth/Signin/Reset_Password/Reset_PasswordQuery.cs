@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Auth.Sigin.Reset_Password;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Auth.Signin.Reset_Password
 {
-    public class Reset_PasswordQuery(IQueryRepository repository) : BaseRepository<Reset_PasswordModel>(repository, ApiEndpoint.Auth.Signin.ResetPassword), IReset_PasswordQuery
+    public class Reset_PasswordQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IReset_PasswordQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Auth.Signin.ResetPassword;
     }
 }

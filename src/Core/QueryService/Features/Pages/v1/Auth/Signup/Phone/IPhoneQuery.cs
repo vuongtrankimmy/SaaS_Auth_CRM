@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Auth.Signup.Phone
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Auth.Signup.Phone
 {
-    public interface IPhoneQuery
+    public interface IPhoneQuery : IRepository
     {
     }
 }

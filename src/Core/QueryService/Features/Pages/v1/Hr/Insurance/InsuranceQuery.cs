@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Hr.Insurance;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Hr.Insurance
 {
-    public class InsuranceQuery(IQueryRepository repository) : BaseRepository<InsuranceModel>(repository, ApiEndpoint.Hr.Insurance), IInsuranceQuery
+    public class InsuranceQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IInsuranceQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Hr.Insurance;
     }
 }

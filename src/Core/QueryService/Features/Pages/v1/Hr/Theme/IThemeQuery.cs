@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.Theme
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.Theme
 {
-    public interface IThemeQuery
+    public interface IThemeQuery : IRepository
     {
     }
 }

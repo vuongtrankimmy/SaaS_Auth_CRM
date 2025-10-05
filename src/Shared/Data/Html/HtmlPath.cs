@@ -16,7 +16,7 @@ namespace Shared.Data.Html
         {
             var moduleName = module.ToString();
             var folder = relativePath.Split('/').Last();
-            return $"{config.BasePath}{moduleName}/{relativePath}/{folder}.html";
+            return $"{config.BasePagePath}{moduleName}/{relativePath}/{folder}.html";
         }
     }
 }

@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Auth.Sigin.Password;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Auth.Signin.Password
 {
-    public class PasswordQuery(IQueryRepository repository) : BaseRepository<PasswordModel>(repository, ApiEndpoint.Auth.Signin.Password), IPasswordQuery
+    public class PasswordQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IPasswordQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Auth.Signin.Password;
     }
 }

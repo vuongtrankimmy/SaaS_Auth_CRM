@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Hr.DesignToken;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Hr.DesignToken
 {
-    public class DesignTokenQuery(IQueryRepository repository) : BaseRepository<DesignTokenModel>(repository, ApiEndpoint.Hr.DesignToken), IDesignTokenQuery
+    public class DesignTokenQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IDesignTokenQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Hr.DesignToken;
     }
 }

@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using QueryService.Wrapper;
+using Templates.Features.Pages.v1.Account;
 
 namespace Templates.Wrapper
 {
-    internal class TemplateWrapper
+    public class TemplateWrapper(IQueryWrapper queryWrapper) : ITemplateWrapper
     {
+        public IAccountService AccountService => accountService ??= new AccountService(queryWrapper);
+        IAccountService? accountService;
     }
 }

@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Auth.Signup.Your_Name
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Auth.Signup.Your_Name
 {
-    public interface IYour_NameQuery
+    public interface IYour_NameQuery : IRepository
     {
     }
 }

@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Hr.Attendance;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Hr.Attendance
 {
-    public class AttendanceQuery(IQueryRepository repository) : BaseRepository<AttendanceModel>(repository, ApiEndpoint.Hr.Attendance), IAttendanceQuery
+    public class AttendanceQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IAttendanceQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Hr.Attendance;
     }
 }

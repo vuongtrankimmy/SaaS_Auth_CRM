@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Account.Workspace
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Account.Workspace
 {
-    public interface IWorkspaceQuery
+    public interface IWorkspaceQuery:IRepository
     {
     }
 }

@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.Training
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.Training
 {
-    public interface ITrainingQuery
+    public interface ITrainingQuery : IRepository
     {
     }
 }

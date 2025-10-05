@@ -5,19 +5,17 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
-    <AssemblyVersion>25.10.4.173</AssemblyVersion>
-    <FileVersion>25.10.4.173</FileVersion>
+    <AssemblyVersion>25.10.5.198</AssemblyVersion>
+    <FileVersion>25.10.5.198</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\QueryService\QueryService.csproj" />
+    <ProjectReference Include="..\..\Core\Templates\Templates.csproj" />
     <ProjectReference Include="..\..\Infrastructures\Infrastructures.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Components\Widgets\" />
-    <Folder Include="wwwroot\data\html\mobile\v1\Components\Pages\" />
-    <Folder Include="wwwroot\data\html\mobile\v1\" />
   </ItemGroup>
 
 </Project>

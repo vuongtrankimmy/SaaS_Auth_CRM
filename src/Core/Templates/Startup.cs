@@ -1,0 +1,25 @@
+﻿using Helpers.Helper.Convert;
+using Microsoft.Extensions.DependencyInjection;
+using QueryService.Wrapper;
+using Repositories.Repository;
+using Templates.Wrapper;
+
+namespace Templates
+{
+    public static class Startup
+    {
+        public static IServiceCollection UseTemplatesService(this IServiceCollection services)
+        {
+            services.DIRegisters();
+            return services;
+        }
+        private static IServiceCollection DIRegisters(this IServiceCollection services)
+        {
+            services.AddScoped<JsonService>();
+            services.AddScoped<ITemplateWrapper, TemplateWrapper>();
+            services.AddScoped<IQueryWrapper, QueryWrapper>();
+            services.AddScoped<IQueryRepository, QueryRepository>();
+            return services;
+        }
+    }
+}

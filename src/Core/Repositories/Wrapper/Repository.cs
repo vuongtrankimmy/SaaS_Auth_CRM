@@ -1,11 +1,10 @@
-﻿using Helpers.Helper.Convert;
-using Microsoft.Extensions.Configuration;
+﻿using Repositories.Base;
 using Repositories.Repository;
 
 namespace Repositories.Wrapper
 {
-    public class Repository(IConfiguration config, JsonService jsonService) : IRepository
+    public abstract class Repository(IQueryRepository queryRepository, string _endpoint) : BaseRepository(queryRepository, _endpoint), IRepository
     {
-        public IQueryRepository QueryRepository => field ??= new QueryRepository(config, jsonService);
+     
     }
 }

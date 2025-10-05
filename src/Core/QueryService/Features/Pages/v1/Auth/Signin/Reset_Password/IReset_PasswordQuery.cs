@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Auth.Signin.Reset_Password
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Auth.Signin.Reset_Password
 {
-    public interface IReset_PasswordQuery
+    public interface IReset_PasswordQuery : IRepository
     {
     }
 }

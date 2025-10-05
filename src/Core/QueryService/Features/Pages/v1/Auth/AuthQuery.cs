@@ -4,7 +4,7 @@ using Repositories.Repository;
 
 namespace QueryService.Features.Pages.v1.Auth
 {
-    public class AuthQuery(IQueryRepository? _queryRepository) : IAuthQuery
+    public class AuthQuery(IQueryRepository _queryRepository) : IAuthQuery
     {
         public ISigninQuery SigninQuery => signinQuery ??= new SigninQuery(_queryRepository);
         ISigninQuery? signinQuery;

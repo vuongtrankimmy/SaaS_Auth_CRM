@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Billing.Service;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Billing.Service
 {
-    public class ServiceQuery(IQueryRepository repository) : BaseRepository<ServiceModel>(repository, ApiEndpoint.Billing.Service), IServiceQuery
+    public class ServiceQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IServiceQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Billing.Service;
     }
 }

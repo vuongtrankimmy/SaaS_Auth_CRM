@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.Payroll
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.Payroll
 {
-    public interface IPayrollQuery
+    public interface IPayrollQuery : IRepository
     {
     }
 }

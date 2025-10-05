@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.Insurance
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.Insurance
 {
-    public interface IInsuranceQuery
+    public interface IInsuranceQuery : IRepository
     {
     }
 }

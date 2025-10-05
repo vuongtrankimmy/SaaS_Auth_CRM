@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Hr.Leave;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Hr.Leave
 {
-    public class LeaveQuery(IQueryRepository repository) : BaseRepository<LeaveModel>(repository, ApiEndpoint.Hr.Leave), ILeaveQuery
+    public class LeaveQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), ILeaveQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Hr.Leave;
     }
 }

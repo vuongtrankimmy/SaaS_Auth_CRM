@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Hr.Penalty;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Hr.Penalty
 {
-    public class PenaltyQuery(IQueryRepository repository) : BaseRepository<PenaltyModel>(repository, ApiEndpoint.Hr.Penalty), IPenaltyQuery
+    public class PenaltyQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IPenaltyQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Hr.Penalty;
     }
 }

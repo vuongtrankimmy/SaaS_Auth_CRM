@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Account.Setting;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Account.Setting
 {
-    public class SettingQuery(IQueryRepository repository) : BaseRepository<SettingModel>(repository, ApiEndpoint.Account.Setting), ISettingQuery
+    public class SettingQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), ISettingQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Account.Setting;
     }
 }

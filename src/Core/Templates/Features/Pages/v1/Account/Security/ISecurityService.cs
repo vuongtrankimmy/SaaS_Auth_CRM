@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Templates.Features.Pages.v1.Account.Security
+﻿namespace Templates.Features.Pages.v1.Account.Security
 {
-    internal class ISecurityService
+    public interface ISecurityService
     {
     }
 }

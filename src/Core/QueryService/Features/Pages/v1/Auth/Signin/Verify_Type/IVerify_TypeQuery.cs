@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Auth.Signin.Verify_Type
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Auth.Signin.Verify_Type
 {
-    public interface IVerify_TypeQuery
+    public interface IVerify_TypeQuery : IRepository
     {
     }
 }

@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.Employee
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.Employee
 {
-    public interface IEmployeeQuery
+    public interface IEmployeeQuery : IRepository
     {
     }
 }

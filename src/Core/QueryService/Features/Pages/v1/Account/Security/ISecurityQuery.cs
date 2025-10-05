@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Account.Security
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Account.Security
 {
-    public interface ISecurityQuery
+    public interface ISecurityQuery:IRepository
     {
     }
 }

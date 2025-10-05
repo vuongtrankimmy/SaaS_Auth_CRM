@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Auth.Signup.Email;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Auth.Signup.Email
 {
-    public class EmailQuery(IQueryRepository repository) : BaseRepository<EmailModel>(repository, ApiEndpoint.Auth.Signup.Email), IEmailQuery
+    public class EmailQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IEmailQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Auth.Signup.Email;
     }
 }

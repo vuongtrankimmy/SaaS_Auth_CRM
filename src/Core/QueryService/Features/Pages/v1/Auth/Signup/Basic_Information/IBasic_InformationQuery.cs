@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Auth.Signup.Basic_Information
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Auth.Signup.Basic_Information
 {
-    public interface IBasic_InformationQuery
+    public interface IBasic_InformationQuery : IRepository
     {
     }
 }

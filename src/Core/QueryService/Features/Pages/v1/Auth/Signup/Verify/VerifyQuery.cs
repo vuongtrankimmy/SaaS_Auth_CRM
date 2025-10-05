@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Auth.Signup.Verify;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Auth.Signup.Verify
 {
-    public class VerifyQuery(IQueryRepository repository) : BaseRepository<VerifyModel>(repository, ApiEndpoint.Auth.Signup.Verify), IVerifyQuery
+    public class VerifyQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IVerifyQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Auth.Signup.Verify;
     }
 }

@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Billing.Service
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Billing.Service
 {
-    public interface IServiceQuery
+    public interface IServiceQuery : IRepository
     {
     }
 }

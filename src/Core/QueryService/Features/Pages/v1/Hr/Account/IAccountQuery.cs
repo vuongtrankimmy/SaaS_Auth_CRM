@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Hr.Account
 {
-    public interface IAccountQuery
+    public interface IAccountQuery : IRepository
     {
     }
 }

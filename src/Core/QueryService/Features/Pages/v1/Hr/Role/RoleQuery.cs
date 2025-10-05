@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Hr.Role;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Hr.Role
 {
-    public class RoleQuery(IQueryRepository repository) : BaseRepository<RoleModel>(repository, ApiEndpoint.Hr.Role), IRoleQuery
+    public class RoleQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IRoleQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Hr.Role;
     }
 }

@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Templates.Features.Pages.v1.Account.Application;
 
 namespace Templates.Features.Pages.v1.Account
 {
-    internal class IAccountService
+    public interface IAccountService
     {
+        IApplicationService ApplicationService {  get; }
     }
 }

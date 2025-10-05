@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.Position
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.Position
 {
-    public interface IPositionQuery
+    public interface IPositionQuery : IRepository
     {
     }
 }

@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Auth.Signup.BirthOfDay
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Auth.Signup.BirthOfDay
 {
-    public interface IBirthOfDayQuery
+    public interface IBirthOfDayQuery : IRepository
     {
     }
 }

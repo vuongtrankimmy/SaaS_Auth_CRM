@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Auth.Signup.Verify_Otp
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Auth.Signup.Verify_Otp
 {
-    public interface IVerify_OtpQuery
+    public interface IVerify_OtpQuery : IRepository
     {
     }
 }

@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Auth.Signup.BirthOfDay;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Auth.Signup.BirthOfDay
 {
-    public class BirthOfDayQuery(IQueryRepository repository) : BaseRepository<BirthOfDayModel>(repository, ApiEndpoint.Auth.Signup.BasicInformation), IBirthOfDayQuery
+    public class BirthOfDayQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IBirthOfDayQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Auth.Signup.BasicInformation;
     }
 }

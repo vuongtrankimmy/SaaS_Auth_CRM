@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Hr.Bonus;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Hr.Bonus
 {
-    public class BonusQuery(IQueryRepository repository) : BaseRepository<BonusModel>(repository, ApiEndpoint.Hr.Bonus), IBonusQuery
+    public class BonusQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IBonusQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Hr.Bonus;
     }
 }

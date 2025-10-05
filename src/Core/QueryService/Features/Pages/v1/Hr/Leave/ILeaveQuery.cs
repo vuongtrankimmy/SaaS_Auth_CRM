@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.Leave
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.Leave
 {
-    public interface ILeaveQuery
+    public interface ILeaveQuery : IRepository
     {
     }
 }

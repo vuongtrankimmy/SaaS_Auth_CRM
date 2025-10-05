@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Templates.Features.Pages.v1.Account;
 
 namespace Templates.Wrapper
 {
-    internal class ITemplateWrapper
+    public interface ITemplateWrapper
     {
+        IAccountService AccountService {  get; }
     }
 }

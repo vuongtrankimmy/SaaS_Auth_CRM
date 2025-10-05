@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.DesignToken
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.DesignToken
 {
-    public interface IDesignTokenQuery
+    public interface IDesignTokenQuery : IRepository
     {
     }
 }

@@ -1,6 +1,6 @@
 using Host.Auth.Components;
 using Infrastructures;
-using QueryService;
+using Templates;
 using Rebuilds.Jobs.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,7 +19,7 @@ builder.Services.AddRazorComponents(options =>
 
 builder.Services
     .UseInfrastructure(config)
-    .UseQueryService();
+    .UseTemplatesService();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,6 +1,8 @@
-﻿namespace QueryService.Features.Pages.v1.Hr.KPI
+﻿using Repositories.Wrapper;
+
+namespace QueryService.Features.Pages.v1.Hr.KPI
 {
-    public interface IKPIQuery
+    public interface IKPIQuery : IRepository
     {
     }
 }

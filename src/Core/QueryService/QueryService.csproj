@@ -4,9 +4,13 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyVersion>25.10.4.60</AssemblyVersion>
-    <FileVersion>25.10.4.60</FileVersion>
+    <AssemblyVersion>25.10.5.90</AssemblyVersion>
+    <FileVersion>25.10.5.90</FileVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Startup.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Features\Widgets\" />

@@ -1,11 +1,11 @@
 ﻿using Entities.Common.Endpoint;
-using Entities.Features.Pages.Billing.Address;
-using Repositories.Base;
 using Repositories.Repository;
+using Repositories.Wrapper;
 
 namespace QueryService.Features.Pages.v1.Billing.Address
 {
-    public class AddressQuery(IQueryRepository repository) : BaseRepository<AddressModel>(repository, ApiEndpoint.Billing.Address), IAddressQuery
+    public class AddressQuery(IQueryRepository queryRepository) : Repository(queryRepository, endpoint), IAddressQuery
     {
+        private static readonly string endpoint = ApiEndpoint.Billing.Address;
     }
 }

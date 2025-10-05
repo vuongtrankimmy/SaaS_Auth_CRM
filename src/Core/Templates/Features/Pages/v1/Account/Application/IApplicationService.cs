@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Templates.Features.Pages.v1.Account.Application
+﻿namespace Templates.Features.Pages.v1.Account.Application
 {
-    internal class IApplicationService
+    public interface IApplicationService
     {
+        Task<string> GetAsync();
     }
 }
