@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Templates.Features.Pages.v1.Auth.Signup.Verify_Otp
+﻿namespace Templates.Features.Pages.v1.Auth.Signup.Verify_Otp
 {
-    internal class IVerify_OtpService
+    public interface IVerify_OtpService
     {
+        Task<string> GetAsync();
     }
 }

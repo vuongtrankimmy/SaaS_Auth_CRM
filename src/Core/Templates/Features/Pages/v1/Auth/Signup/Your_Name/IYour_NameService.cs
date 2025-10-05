@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Templates.Features.Pages.v1.Auth.Signup.Your_Name
+﻿namespace Templates.Features.Pages.v1.Auth.Signup.Your_Name
 {
-    internal class IYour_NameService
+    public interface IYour_NameService
     {
+        Task<string> GetAsync();
     }
 }

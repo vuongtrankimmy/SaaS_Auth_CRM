@@ -2,5 +2,6 @@
 {
     public interface ISecurityService
     {
+        Task<string> GetAsync();
     }
 }

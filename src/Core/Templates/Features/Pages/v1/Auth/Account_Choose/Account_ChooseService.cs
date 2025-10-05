@@ -1,10 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using QueryService.Wrapper;
+using Shared.Data.Html;
+using Shared.Helpers.Template.Html;
 
 namespace Templates.Features.Pages.v1.Auth.Account_Choose
 {
-    internal class Account_ChooseService
+    public class Account_ChooseService(IQueryWrapper queryWrapper) : IAccount_ChooseService
     {
+        public async Task<string> GetAsync()
+        {
+            var htmlPath = HtmlPathFactory.Auth.AccountChoose;
+            // var api = queryWrapper.AccountQuery.ApplicationQuery.GetAsync<AccountModel>(1);
+            return await htmlPath.ToRender("");
+        }
     }
 }

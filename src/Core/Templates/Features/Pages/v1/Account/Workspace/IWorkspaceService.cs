@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Templates.Features.Pages.v1.Account.Workspace
+﻿namespace Templates.Features.Pages.v1.Account.Workspace
 {
-    internal class IWorkspaceService
+    public interface IWorkspaceService
     {
+        Task<string> GetAsync();
     }
 }

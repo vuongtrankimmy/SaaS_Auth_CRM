@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Templates.Features.Pages.v1.Auth.Signup.Phone
+﻿namespace Templates.Features.Pages.v1.Auth.Signup.Phone
 {
-    internal class IPhoneService
+    public interface IPhoneService
     {
+        Task<string> GetAsync();
     }
 }

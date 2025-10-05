@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Templates.Features.Pages.v1.Account.Setting
+﻿namespace Templates.Features.Pages.v1.Account.Setting
 {
-    internal class ISettingService
+    public interface ISettingService
     {
+        Task<string> GetAsync();
     }
 }

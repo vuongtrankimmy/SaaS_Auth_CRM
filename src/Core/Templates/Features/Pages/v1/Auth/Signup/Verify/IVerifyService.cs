@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Templates.Features.Pages.v1.Auth.Signup.Verify
+﻿namespace Templates.Features.Pages.v1.Auth.Signup.Verify
 {
-    internal class IVerifyService
+    public interface IVerifyService
     {
+        Task<string> GetAsync();
     }
 }

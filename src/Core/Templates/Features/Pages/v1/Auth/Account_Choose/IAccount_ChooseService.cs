@@ -2,5 +2,6 @@
 {
     public interface IAccount_ChooseService
     {
+        Task<string> GetAsync();
     }
 }
